@@ -9555,9 +9555,9 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 :root {
-  --primary-color: #151965;
-  --secondary-color: #ff8556;
-  --text-color: #6c757d;
+  --primary-color: #ac0606;
+  --secondary-color: #ac0606;
+  --text-color: #ac0606;
   --title-color: #0F0F1A;
   --white-color: #ffffff;
   --light-bg-color: #fafafa;
