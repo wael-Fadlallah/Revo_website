@@ -141,6 +141,16 @@
   .my-mfp-slide-bottom.mfp-removing.mfp-bg {
     opacity: 0;
   }
+  .w3l-about1{
+    text-align:right;
+  }
+
+  .btn-green{
+    background-color:#25D366;
+    border-color:#25D366;
+    color:white;
+    font-weight:bold;
+  }
 </style>
   <section class="w3l-about1">
     <div class="new-block top-bottom">
@@ -151,9 +161,9 @@
             <h2>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص.</h2>
           </div>
           <div class="link-list-menu">
-            <p>We believe that we are outstanding. Not because we say it, but because we work hard at it. We are
-              dedicated, committed and focused. We believe that every person will reach their personal best and overcome
-              any challenge through a shared culture and ethos.</p>
+            <p>
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+            </p>
           </div>
         </div>
       </div>
@@ -162,7 +172,7 @@
   <section class="w3l-about2">
     <div class="features-main py-5">
       <div class="container py-lg-3">
-        <h3 class="stat-title">We build great brands with passion & love</h3>
+        <h3 class="stat-title text-right ">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،</h3>
         <div class="row features">
           <div class="col-md-4 feature-1 mt-5">
             <div class="feature-body">
@@ -170,8 +180,8 @@
                 <span>15k+</span>
               </div>
               <div class="feature-info mt-4">
-                <h3 class="feature-titel my-2">Active Reward Programs</h3>
-                <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat dolor
+                <h3 class="feature-titel my-2 text-right">Active Reward Programs</h3>
+                <p class="feature-text text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat dolor
                   facere ipsum dolorem autem voluptate tempora ad. </p>
               </div>
             </div>
@@ -182,8 +192,8 @@
                 <span>40M+</span>
               </div>
               <div class="feature-info mt-4">
-                <h3 class="feature-titel my-2">Participating Members</h3>
-                <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat dolor
+                <h3 class="feature-titel my-2 text-right">Participating Members</h3>
+                <p class="feature-text text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat dolor
                   facere ipsum dolorem autem voluptate tempora ad. </p>
 
               </div>
@@ -195,8 +205,8 @@
                 <span>100+</span>
               </div>
               <div class="feature-info mt-4">
-                <h3 class="feature-titel my-2">Partner Agencies</h3>
-                <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat dolor
+                <h3 class="feature-titel my-2 text-right">Partner Agencies</h3>
+                <p class="feature-text text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellat dolor
                   facere ipsum dolorem autem voluptate tempora ad. </p>
                 <div class="hover">
                 </div>
@@ -207,7 +217,8 @@
       </div>
     </div>
   </section>
-  <section class="w3l-about5">
+  
+  <!-- <section class="w3l-about5">
     <div class="py-5">
       <div class="container py-lg-3">
         <div class="heading text-center mx-auto">
@@ -217,11 +228,11 @@
         <div class="history-info mt-5">
           <div class="position-relative">
             <img src="assets/images/video.jpg" class="img-fluid" alt="video-popup" />
-            <!-- <a href="#popup-video" class="play-view text-center position-absolute">
+            <a href="#popup-video" class="play-view text-center position-absolute">
 						<span class="video-play-icon">
 							<span class="fa fa-play"></span>
 						</span>
-					</a> -->
+					</a> 
 
             <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
               <span class="video-play-icon">
@@ -229,12 +240,12 @@
               </span>
             </a>
 
-            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+            dialog itself, mfp-hide class is required to make dialog hidden
             <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
               <iframe src="https://www.youtube.com/embed/JemJbNJ4ZtU" allowfullscreen=""></iframe>
             </div>
 
-            <!-- popup -->
+            popup
             <div id="popup-video" class="pop-overlay">
               <div class="popup">
                 <div class="align-popup-video">
@@ -244,7 +255,6 @@
 
               </div>
             </div>
-            <!-- /popup -->
 
 
           </div>
@@ -258,7 +268,8 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
   <section class="w3l-about3 py-5">
     <div class="container py-lg-3">
       <h3 class="text-center mb-3 timeline-title">We Have Come A Long Way</h3>
@@ -341,7 +352,7 @@
       </ul>
     </div>
   </section>
-  <section class="w3l-about4">
+  <!-- <section class="w3l-about4">
     <div class="contact1-bg py-5">
       <div class="container py-lg-3">
         <div class="contact-main row align-items-center">
@@ -365,221 +376,20 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- about-block6 -->
   <section class="w3l-about6 py-5">
     <div class="container py-md-3 text-center">
       <div class="heading text-center mx-auto">
-        <h3 class="head">We Would Love to Talk </h3>
-        <p class="my-3 head">We love conversations, and would love to have one with you! Whether you’re looking for a
-          speaker, an awesome career, or want to get started with a rewards program, we would love hear from you.</p>
+        <h3 class="head"> يسرنا اتصالكم </h3>
+        <p class="my-3 head">
+        نحن هنا لمساعدتكم على سرد قصصكم، نقوم بتصميم تجارب ذكية جميلة وبسيطة وعقلانية! ونركز على الجودة والسرعة والاتساق لأننا نعتقد أن المواقع لا ينبغي أن تبدو جيدة فحسب، بل يجب أن نكون جيدة أيضًا!.
+        </p>
       </div>
       <div class="buttons mt-4">
-        <a href="#url" class="btn btn-outline-primary mr-2 btn-demo">Book a Demo</a>
-        <a href="#url" class="btn btn-primary btn-demo ml-2">Get in touch</a>
+        <a href="#url" class="btn btn-green mr-2 btn-demo" >راسلنا عبر الواتس</a>
+        <a href="#url" class="btn btn-outline-primary btn-demo ml-2"> ارسل بريد اللكتروني </a>
       </div>
     </div>
   </section>
   <!-- / about-block6 -->
-  <!-- footer-28 block -->
-  <section class="w3l-market-footer">
-    <footer class="footer-28">
-      <div class="footer-bg-layer">
-        <div class="container py-lg-3">
-          <div class="row footer-top-28">
-            <div class="col-md-6 footer-list-28 mt-5">
-              <h6 class="footer-title-28">Contact information</h6>
-              <ul>
-                <li>
-                  <p><strong>Address</strong> : #135 block, Barnard St. Brooklyn, NY 10036, USA</p>
-                </li>
-                <li>
-                  <p><strong>Phone</strong> : <a href="tel:+404-11-22-89">+404-11-22-89</a></p>
-                </li>
-                <li>
-                  <p><strong>Email</strong> : <a href="mailto:example@mail.com">example@mail.com</a></p>
-                </li>
-              </ul>
-
-              <div class="main-social-footer-28 mt-3">
-                <ul class="social-icons">
-                  <li class="facebook">
-                    <a href="#link" title="Facebook">
-                      <span class="fa fa-facebook" aria-hidden="true"></span>
-                    </a>
-                  </li>
-                  <li class="twitter">
-                    <a href="#link" title="Twitter">
-                      <span class="fa fa-twitter" aria-hidden="true"></span>
-                    </a>
-                  </li>
-                  <li class="dribbble">
-                    <a href="#link" title="Dribbble">
-                      <span class="fa fa-dribbble" aria-hidden="true"></span>
-                    </a>
-                  </li>
-                  <li class="google">
-                    <a href="#link" title="Google">
-                      <span class="fa fa-google" aria-hidden="true"></span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-4 footer-list-28 mt-5">
-                  <h6 class="footer-title-28">Company</h6>
-                  <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#blog.html">Blog Posts</a></li>
-                    <li><a href="#pricing.html">FAQ</a></li>
-                    <li><a href="#pricing.html">Pricing</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-4 footer-list-28 mt-5">
-                  <h6 class="footer-title-28">Support</h6>
-                  <ul>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="#signup.html">Create account</a></li>
-                    <li><a href="#learn.html">Learning Center</a></li>
-                    <li><a href="#career.html">Team</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-4 footer-list-28 mt-5">
-                  <h6 class="footer-title-28">Product</h6>
-                  <ul>
-                    <li><a href="#URL">Market</a></li>
-                    <li><a href="#URL">VIP</a></li>
-                    <li><a href="#URL">Resources</a></li>
-                    <li><a href="#URL">Sale</a></li>
-                    <li><a href="#URL">Admin UI</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="midd-footer-28 align-center py-lg-4 py-3 mt-5">
-          <div class="container">
-            <p class="copy-footer-28 text-center"> &copy; 2020 Market. All Rights Reserved. Design by <a
-                href="https://w3layouts.com/">W3Layouts</a></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-      &#10548;
-    </button>
-    <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction()
-      };
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("movetop").style.display = "block";
-        } else {
-          document.getElementById("movetop").style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <!-- /move top -->
-  </section>
-  <!-- //footer-28 block -->
-
-  <!-- script for owlcarousel -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-one').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: true,
-        responsiveClass: true,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 1,
-            nav: false
-          },
-          667: {
-            items: 1,
-            nav: true
-          },
-          1000: {
-            items: 1,
-            nav: true
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //script for owlcarousel -->
-
-  <!-- disable body scroll which navbar is in active -->
-  <script>
-    $(function () {
-      $('.navbar-toggler').click(function () {
-        $('body').toggleClass('noscroll');
-      })
-    });
-  </script>
-  <!-- disable body scroll which navbar is in active -->
-
-  <script>
-    $(document).ready(function () {
-      $('.popup-with-zoom-anim').magnificPopup({
-        type: 'inline',
-
-        fixedContentPos: false,
-        fixedBgPos: true,
-
-        overflowY: 'auto',
-
-        closeBtnInside: true,
-        preloader: false,
-
-        midClick: true,
-        removalDelay: 300,
-        mainClass: 'my-mfp-zoom-in'
-      });
-
-      $('.popup-with-move-anim').magnificPopup({
-        type: 'inline',
-
-        fixedContentPos: false,
-        fixedBgPos: true,
-
-        overflowY: 'auto',
-
-        closeBtnInside: true,
-        preloader: false,
-
-        midClick: true,
-        removalDelay: 300,
-        mainClass: 'my-mfp-slide-bottom'
-      });
-    });
-  </script>
-
-</body>
-
-</html>
