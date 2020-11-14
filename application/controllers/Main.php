@@ -16,11 +16,13 @@ class Main extends CI_Controller {
         $title=' عن ريفو ';
         $this->load->view('header',array('title'=>$title));
         $this->load->view('about');
+        $this->load->view('footer');
     }
     public function contact()
 	{
         $title='Contact Revo';
         $this->load->view('header',array('title'=>$title));
         $this->load->view('contact');
+        $this->load->view('footer');
     }
 }
