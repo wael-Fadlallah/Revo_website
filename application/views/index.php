@@ -1,13 +1,15 @@
 
 <div class="w3l-index-block1">
   <div class="content py-5">
-    <div class="container">
+    <div class="container text-right">
       <div class="row align-items-center py-md-5 py-3">
         <div class="col-md-5 content-left pt-md-0 pt-5">
-          <h1>Meet with us to success dream business</h1>
-          <p class="mt-3 mb-md-5 mb-4">Making use of the respective industries and our team works. Build an online presence with this professional 
-            bootstrap 4 template.</p>
-          <a href="#login.html" class="btn btn-primary btn-theme">Get Started</a>
+          <h1 class="text-right">نقود احلامك الي النور  </h1>
+          <p class="mt-3 mb-md-5 mb-4 text-right">
+الافكار المجنونة.. تنجح دائمًا، و التغييرات الكبيرة تبدأ بخطوات صغيرة. فليس هناك خطوة
+ واحدة عملاقة حققت الانجاز. في ريفو نحن متحمسون للافكار الجنونية، مستعدون لنخطو معك الطريق للنجاح.
+</p>
+          <!-- <a href="#login.html" class="btn btn-primary btn-theme">Get Started</a> -->
         </div>
         <div class="col-md-7 content-photo mt-md-0 mt-5">
           <img src="<?php echo base_url('assets/images/') ; ?>main.jpg" class="img-fluid" alt="main image">
@@ -19,13 +21,11 @@
 </div>
 <!-- //index-block1 -->
 <!-- index-block2 -->
-<section class="w3l-index-block2 py-5">
+<!-- <section class="w3l-index-block2 py-5">
   <div class="container py-md-3">
     <div class="heading text-center mx-auto">
-      <h3 class="head">We provide solutions to grow your business </h3>
-      <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-        Nulla mollis dapibus nunc, ut rhoncus
-        turpis sodales quis. Integer sit amet mattis quam.</p>
+      <h3 class="head text-right" >حلول تنمي عملك</h3>
+      <p class="my-3 head"></p>
     </div>
     <div class="row bottom_grids pt-md-3">
       <div class="col-lg-4 col-md-6 mt-5">
@@ -57,7 +57,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- /index-block2 -->
 <!-- content-with-photo17 -->
 <section class="w3l-index-block3">
@@ -67,11 +67,10 @@
         <div class="col-md-6 cwp17-image">
           <img src="<?php echo base_url('assets/images/') ; ?>business.png" class="img-fluid" alt="" />
         </div>
-        <div class="col-md-6 cwp17-text">
-          <h2>Start your business easily with Us</h2>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
-            Latin literature from 45 BC, making it over 2000 years old. </p>
-          <a href="#signup.html">Learn more &raquo;</a>
+        <div class="col-md-6 cwp17-text text-right">
+          <h2 class="text-right">  حلول لعملك الخاص باسعار تنافسية  </h2>
+          <p>منتجات برمجية مميزة باقل الاسعار لاصحاب الاعمال الصغيرة و المتوسطة تساعدك علي تنمية عملك و جذب عملاء جدد.</p>
+          <!-- <a href="#signup.html">Learn more &raquo;</a> -->
         </div>
       </div>
     </div>
@@ -83,98 +82,98 @@
      <!-- features15 block -->
      <div class="container py-md-3">
        <div class="heading text-center mx-auto">
-         <h3 class="head">Marketing solutions for your business </h3>
-         <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+         <h3 class="head">حلول متكاملة لكل متطلبات عملك</h3>
+         <!-- <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
            Nulla mollis dapibus nunc, ut rhoncus
-           turpis sodales quis. Integer sit amet mattis quam.</p>
+           turpis sodales quis. Integer sit amet mattis quam.</p> -->
        </div>
        <div class="row">
          <div class="col-md-6 features15-col-text">
            <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-3">
-               <div class="features15-info">
-                 <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
+             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+               <div class="features15-para">
+                 <h4>تطبيقات الهواتف الذكية</h4>
+                 <p>تطبيقات سهلة, بسيطة و متميزة. تعمل بسلاسة علي كل الاجهزة والاصدارات.</p>
                </div>
              </div>
-             <div class="col-sm-9 mt-sm-0 mt-4">
-               <div class="features15-para">
-                 <h4>Mobile Apps</h4>
-                 <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+             <div class="col-sm-3">
+               <div class="features15-info">
+                 <span class="fa fa-android" aria-hidden="true"></span>
                </div>
              </div>
            </a>
          </div>
          <div class="col-md-6 features15-col-text">
            <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
+             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+               <div class="features15-para">
+                 <h4>تسويق</h4>
+                 <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+               </div>
+             </div>
              <div class="col-sm-3">
                <div class="features15-info">
                  <span class="fa fa-usd" aria-hidden="true"></span>
                </div>
              </div>
-             <div class="col-sm-9 mt-sm-0 mt-4">
-               <div class="features15-para">
-                 <h4>Marketing</h4>
-                 <p>It is a long established fact that a reader will be distracted by the readable content.</p>
-               </div>
-             </div>
            </a>
          </div>
          <div class="col-md-6 features15-col-text">
            <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-3">
-               <div class="features15-info">
-                 <span class="fa fa-graduation-cap" aria-hidden="true"></span>
-               </div>
-             </div>
-             <div class="col-sm-9 mt-sm-0 mt-4">
+             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
-                 <h4>Web Development</h4>
-                 <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                 <h4>انشاء المواقع</h4>
+                 <p> مواقع عصرية تعكس طبيعة عملك و تلبي كل احتياجات عملائك.</p>
                </div>
              </div>
-           </a>
-         </div>
-         <div class="col-md-6 features15-col-text">
-           <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-3">
-               <div class="features15-info">
-                 <span class="fa fa-sort-alpha-asc" aria-hidden="true"></span>
-               </div>
-             </div>
-             <div class="col-sm-9 mt-sm-0 mt-4">
-               <div class="features15-para">
-                 <h4>Optimization</h4>
-                 <p>It is a long established fact that a reader will be distracted by the readable content.</p>
-               </div>
-             </div>
-           </a>
-         </div>
-         <div class="col-md-6 features15-col-text">
-           <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
              <div class="col-sm-3">
                <div class="features15-info">
                  <span class="fa fa-laptop" aria-hidden="true"></span>
                </div>
              </div>
-             <div class="col-sm-9 mt-sm-0 mt-4">
+           </a>
+         </div>
+         <div class="col-md-6 features15-col-text">
+           <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
+             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
-                 <h4>Web Design</h4>
-                 <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                 <h4>تحسين و صيانة</h4>
+                 <p>مراجعة, اعادة هيكلة و تعديل اعمالك البرمجية واعادتها للحياة.</p>
+               </div>
+             </div>
+             <div class="col-sm-3">
+               <div class="features15-info">
+                 <span class="fa fa-wrench" aria-hidden="true"></span>
                </div>
              </div>
            </a>
          </div>
          <div class="col-md-6 features15-col-text">
            <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-3">
-               <div class="features15-info">
-                 <span class="fa fa-line-chart" aria-hidden="true"></span>
+             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+               <div class="features15-para">
+                 <h4>تصميم المواقع</h4>
+                 <p>تصاميم احترافية و جزابة . تفي المتطلبات العصرية و تراعي كل مقاسات شاشات العرض .</p>
                </div>
              </div>
-             <div class="col-sm-9 mt-sm-0 mt-4">
+             <div class="col-sm-3">
+               <div class="features15-info">
+                 <span class="fa fa-paint-brush" aria-hidden="true"></span>
+               </div>
+             </div>
+           </a>
+         </div>
+         <div class="col-md-6 features15-col-text">
+           <a href="#url" class="d-flex flex-wrap feature-unit align-items-center">
+             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
                  <h4>Emailing</h4>
                  <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+               </div>
+             </div>
+             <div class="col-sm-3">
+               <div class="features15-info">
+                 <span class="fa fa-line-chart" aria-hidden="true"></span>
                </div>
              </div>
            </a>
@@ -187,7 +186,7 @@
    </div>
  </div>
 <!-- content-with-photo17 -->
-<section class="w3l-index-block7 py-5">
+<!-- <section class="w3l-index-block7 py-5">
   <div class="container py-md-3">
     <div class="row cwp17-two align-items-center">
       <div class="col-md-6 cwp17-text">
@@ -202,10 +201,9 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- content-with-photo17 -->
-<section class="w3l-index-block5">
-  <!-- main-slider -->
+<!-- <section class="w3l-index-block5">
   <div class="testimonials py-5">
     <div class="container text-center py-lg-3">
       <div class="heading text-center mx-auto">
@@ -263,33 +261,27 @@
       </div>
     </div>
   </div>
+</section> -->
   <!-- /main-slider -->
-</section>
 <!-- partners -->
 <section class="w3l-index-block9" id="partners">
   <div class="partners py-5">
     <div class="container py-lg-3">
       <div class="heading text-center mx-auto">
-        <h3 class="head">Over 3 Companies that trust our amazing product </h3>
+        <h3 class="head">عملاء نعتز بهم </h3>
       </div>
       <div class="row col-md-10 justify-content-between grid-part text-center mx-auto">
           <div class="parts-w3ls col-sm-2 col-6 mt-5">
-            <span class="fa fa-cc-visa"></span>
+            <!-- <span class="fa fa-cc-visa"></span> -->
+            <img src="<?php echo base_url();?>assets/images/adela.png">
           </div>
           <div class="parts-w3ls col-sm-2 col-6 mt-5">
-            <span class="fa fa-digg"></span>
+            <!-- <span class="fa fa-cc-visa"></span> -->
+            <img src="<?php echo base_url();?>assets/images/adela.png">
           </div>
           <div class="parts-w3ls col-sm-2 col-6 mt-5">
-            <span class="fa fa-lastfm"></span>
-          </div>
-          <div class="parts-w3ls col-sm-2 col-6 mt-5">
-            <span class="fa fa-cc-discover"></span>
-          </div>
-          <div class="parts-w3ls col-sm-2 col-6 mt-5">
-            <span class="fa fa-ravelry"></span>
-          </div>
-          <div class="parts-w3ls col-sm-2 col-6 mt-5">
-            <span class="fa fa-cc-stripe"></span>
+            <!-- <span class="fa fa-cc-visa"></span> -->
+            <img src="<?php echo base_url();?>assets/images/abuela.jpg">
           </div>
         </div>
       </div>
@@ -297,7 +289,7 @@
 </section>
 <!-- //partners -->
 <!-- subscribe section -->
-<section class="w3l-index-block6 py-5">
+<!-- <section class="w3l-index-block6 py-5">
   <div class="container py-lg-3">
     <div class="subscribe mx-auto">
       <div class="heading text-center mx-auto">
@@ -314,7 +306,7 @@
       </form>
     </div>
   </div>
-</section>
+</section> -->
 <!-- //subscribe -->
 <section class="w3l-index-block10">
   <div class="new-block top-bottom">
@@ -322,18 +314,18 @@
       <div class="middle-section">
         <!-- <h5>Tagline</h5> -->
         <div class="section-width">
-          <h2>Start your Business today with this professional template.</h2>
+          <h2>ريفوليوشن تكنولوجي</h2>
         </div>
         <div class="link-list-menu">
-            <p class="mb-5">Workflow is the definition, execution and automation of business processes where tasks information.</p>
-            <a href="about.html" class="btn btn-outline-light btn-more">Read More <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
+            <p class="mb-5">ثورة في عالم البرمجيات.</p>
+            <!-- <a href="about.html" class="btn btn-outline-light btn-more">Read More <span class="fa fa-arrow-right" aria-hidden="true"></span></a> -->
         </div>
       </div>
     </div>
     </div>
   </section>
 <!-- index-block8 -->
-<section class="w3l-index-block8 py-5">
+<!-- <section class="w3l-index-block8 py-5">
   <div class="container py-md-3 text-center">
     <div class="heading text-center mx-auto">
       <h3 class="head">Ready to get started? </h3>
@@ -343,4 +335,4 @@
       <a href="contact.html" class="btn btn-primary btn-demo ml-2">Get Started</a>
     </div>
   </div>
-</section>
+</section> -->

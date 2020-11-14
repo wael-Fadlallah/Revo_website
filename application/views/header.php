@@ -37,13 +37,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="<?php echo base_url('main/index');?>">Home</a>
+            <a class="nav-link" href="<?php echo base_url('main/index');?>">الرئيسية</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url('main/about');?>">About</a>
+            <a class="nav-link" href="<?php echo base_url('main/about');?>">عن ريفو</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url('main/contact');?>">Contact</a>
+            <a class="nav-link" href="<?php echo base_url('main/contact');?>">اتصل بنا</a>
           </li>
         </ul>
       </div>
