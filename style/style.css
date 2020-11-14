@@ -1,5 +1,8 @@
-body{
+body,html{
     font-family: 'Tajwal' , sans-serif !important ;
+}
+h1, h2, h3, h4, h5, h6,p,li,label,span,a,table,td{
+    font-family: 'Tajawal', sans-serif;
 }
 .revo_color{
     color: #ac0606;

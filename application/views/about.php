@@ -1,191 +1,154 @@
-<!doctype html>
-<html lang="en">
-  <style>
-    /* Styles for dialog window */
-    #small-dialog {
-      background: white;
-      padding: 5px;
-      max-width: 750px;
-      margin: 40px auto;
-      position: relative;
-    }
 
-    div#small-dialog iframe {
-      width: 100%;
-      height: 400px;
-      display: block;
-    }
+<style>
+  /* Styles for dialog window */
+  #small-dialog {
+    background: white;
+    padding: 5px;
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+  }
 
-
-    /**
- * Fade-zoom animation for first dialog
- */
-
-    /* start state */
-    .my-mfp-zoom-in .zoom-anim-dialog {
-      opacity: 0;
-
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
+  div#small-dialog iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+  }
 
 
+  /**
+* Fade-zoom animation for first dialog
+*/
 
-      -webkit-transform: scale(0.8);
-      -moz-transform: scale(0.8);
-      -ms-transform: scale(0.8);
-      -o-transform: scale(0.8);
-      transform: scale(0.8);
-    }
+  /* start state */
+  .my-mfp-zoom-in .zoom-anim-dialog {
+    opacity: 0;
 
-    /* animate in */
-    .my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
-      opacity: 1;
-
-      -webkit-transform: scale(1);
-      -moz-transform: scale(1);
-      -ms-transform: scale(1);
-      -o-transform: scale(1);
-      transform: scale(1);
-    }
-
-    /* animate out */
-    .my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
-      -webkit-transform: scale(0.8);
-      -moz-transform: scale(0.8);
-      -ms-transform: scale(0.8);
-      -o-transform: scale(0.8);
-      transform: scale(0.8);
-
-      opacity: 0;
-    }
-
-    /* Dark overlay, start state */
-    .my-mfp-zoom-in.mfp-bg {
-      opacity: 0;
-      -webkit-transition: opacity 0.3s ease-out;
-      -moz-transition: opacity 0.3s ease-out;
-      -o-transition: opacity 0.3s ease-out;
-      transition: opacity 0.3s ease-out;
-    }
-
-    /* animate in */
-    .my-mfp-zoom-in.mfp-ready.mfp-bg {
-      opacity: 0.8;
-    }
-
-    /* animate out */
-    .my-mfp-zoom-in.mfp-removing.mfp-bg {
-      opacity: 0;
-    }
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
 
 
-    /**
- * Fade-move animation for second dialog
- */
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+  }
 
-    /* at start */
-    .my-mfp-slide-bottom .zoom-anim-dialog {
-      opacity: 0;
-      -webkit-transition: all 0.2s ease-out;
-      -moz-transition: all 0.2s ease-out;
-      -o-transition: all 0.2s ease-out;
-      transition: all 0.2s ease-out;
+  /* animate in */
+  .my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
 
-      -webkit-transform: translateY(-20px) perspective(600px) rotateX(10deg);
-      -moz-transform: translateY(-20px) perspective(600px) rotateX(10deg);
-      -ms-transform: translateY(-20px) perspective(600px) rotateX(10deg);
-      -o-transform: translateY(-20px) perspective(600px) rotateX(10deg);
-      transform: translateY(-20px) perspective(600px) rotateX(10deg);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
 
-    }
+  /* animate out */
+  .my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
 
-    /* animate in */
-    .my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
-      opacity: 1;
-      -webkit-transform: translateY(0) perspective(600px) rotateX(0);
-      -moz-transform: translateY(0) perspective(600px) rotateX(0);
-      -ms-transform: translateY(0) perspective(600px) rotateX(0);
-      -o-transform: translateY(0) perspective(600px) rotateX(0);
-      transform: translateY(0) perspective(600px) rotateX(0);
-    }
+    opacity: 0;
+  }
 
-    /* animate out */
-    .my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
-      opacity: 0;
+  /* Dark overlay, start state */
+  .my-mfp-zoom-in.mfp-bg {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+  }
 
-      -webkit-transform: translateY(-10px) perspective(600px) rotateX(10deg);
-      -moz-transform: translateY(-10px) perspective(600px) rotateX(10deg);
-      -ms-transform: translateY(-10px) perspective(600px) rotateX(10deg);
-      -o-transform: translateY(-10px) perspective(600px) rotateX(10deg);
-      transform: translateY(-10px) perspective(600px) rotateX(10deg);
-    }
+  /* animate in */
+  .my-mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.8;
+  }
 
-    /* Dark overlay, start state */
-    .my-mfp-slide-bottom.mfp-bg {
-      opacity: 0;
+  /* animate out */
+  .my-mfp-zoom-in.mfp-removing.mfp-bg {
+    opacity: 0;
+  }
 
-      -webkit-transition: opacity 0.3s ease-out;
-      -moz-transition: opacity 0.3s ease-out;
-      -o-transition: opacity 0.3s ease-out;
-      transition: opacity 0.3s ease-out;
-    }
 
-    /* animate in */
-    .my-mfp-slide-bottom.mfp-ready.mfp-bg {
-      opacity: 0.8;
-    }
 
-    /* animate out */
-    .my-mfp-slide-bottom.mfp-removing.mfp-bg {
-      opacity: 0;
-    }
-  </style>
-</head>
+  /**
+* Fade-move animation for second dialog
+*/
 
-<body>
-  <div class="w3l-bootstrap-header fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light p-2">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><span class="fa fa-diamond"></span>Market</a>
-        <!-- if logo is image enable this   
-    <a class="navbar-brand" href="#index.html">
-        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-    </a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  /* at start */
+  .my-mfp-slide-bottom .zoom-anim-dialog {
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <div class="form-inline">
-            <a href="#login.html" class="login mr-4">Log in</a>
-            <a href="#signup.html" class="btn btn-primary btn-theme">Create Free Account</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
+    -webkit-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+    -moz-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+    -ms-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+    -o-transform: translateY(-20px) perspective(600px) rotateX(10deg);
+    transform: translateY(-20px) perspective(600px) rotateX(10deg);
+
+  }
+
+  /* animate in */
+  .my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
+    -webkit-transform: translateY(0) perspective(600px) rotateX(0);
+    -moz-transform: translateY(0) perspective(600px) rotateX(0);
+    -ms-transform: translateY(0) perspective(600px) rotateX(0);
+    -o-transform: translateY(0) perspective(600px) rotateX(0);
+    transform: translateY(0) perspective(600px) rotateX(0);
+  }
+
+  /* animate out */
+  .my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+    opacity: 0;
+
+    -webkit-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+    -moz-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+    -ms-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+    -o-transform: translateY(-10px) perspective(600px) rotateX(10deg);
+    transform: translateY(-10px) perspective(600px) rotateX(10deg);
+  }
+
+  /* Dark overlay, start state */
+  .my-mfp-slide-bottom.mfp-bg {
+    opacity: 0;
+
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+  }
+
+  /* animate in */
+  .my-mfp-slide-bottom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+  }
+
+  /* animate out */
+  .my-mfp-slide-bottom.mfp-removing.mfp-bg {
+    opacity: 0;
+  }
+</style>
   <section class="w3l-about1">
     <div class="new-block top-bottom">
       <div class="container">
         <div class="middle-section">
           <!-- <h5>Tagline</h5> -->
           <div class="section-width">
-            <h2>We are true to ourselves, and commit to always perform at our best.</h2>
+            <h2>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص.</h2>
           </div>
           <div class="link-list-menu">
             <p>We believe that we are outstanding. Not because we say it, but because we work hard at it. We are

@@ -11,10 +11,12 @@
     <script src='<?php echo base_url() ; ?>/js/popper.js'></script>
     <script src='<?php echo base_url() ; ?>/assets/js/jquery.magnific-popup.min.js' defer></script>
     <script src='<?php echo base_url() ; ?>/assets/js/owl.carousel.js'></script>
-    <link href="<?php echo base_url() ; ?>/assets/fonts/Tajawal-Regular.ttf" rel="stylesheet">
+    <!-- <link href="<?php echo base_url() ; ?>/assets/fonts/Tajawal-Regular.ttf" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet"> 
 	<meta charset="utf-8">
-        <title><?php echo $title; ?></title>
-        <div style="display:none" id="usersession"><?php echo $this->session->userdata('user');?></div>
+    <title><?php echo $title; ?></title>
+    <div style="display:none" id="usersession"><?php echo $this->session->userdata('user');?></div>
  </head>
 <br>
 <body dir='rtl'>

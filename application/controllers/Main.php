@@ -13,7 +13,7 @@ class Main extends CI_Controller {
     }
     public function about()
 	{
-        $title='About Revo';
+        $title=' عن ريفو ';
         $this->load->view('header',array('title'=>$title));
         $this->load->view('about');
     }
