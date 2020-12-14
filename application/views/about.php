@@ -158,18 +158,21 @@
         <div class="middle-section">
           <!-- <h5>Tagline</h5> -->
           <div class="section-width">
-            <h2>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص.</h2>
+            <h2>ريفوليوشن تكنولوجي للحلول المتكاملة</h2>
           </div>
           <div class="link-list-menu">
             <p>
-            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+            ريفو تك شركة ناشئة تهتم بتطوير قطاع
+             الاعمال في السودان عبر تطبيق و ترسيخ الاقتصاد الرقمي و جعله ركن اساسي في
+             الاقتصاد السوداني عبر فريق من الشباب الواعد الذي يحمل الكثير من الرؤى الذكية
+             و شراكات مع خبراء في بيئة السوق السوداني. 
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="w3l-about2">
+  <!-- <section class="w3l-about2">
     <div class="features-main py-5">
       <div class="container py-lg-3">
         <h3 class="stat-title text-right ">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،</h3>
@@ -217,7 +220,7 @@
       </div>
     </div>
   </section>
-  
+   -->
   <!-- <section class="w3l-about5">
     <div class="py-5">
       <div class="container py-lg-3">
@@ -270,11 +273,10 @@
     </div>
   </section> -->
 
-  <section class="w3l-about3 py-5">
+  <!-- <section class="w3l-about3 py-5">
     <div class="container py-lg-3">
       <h3 class="text-center mb-3 timeline-title">We Have Come A Long Way</h3>
       <ul class="timeline">
-        <!-- Item 1 -->
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
@@ -285,7 +287,7 @@
           </div>
         </li>
 
-        <!-- Item 2 -->
+        
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
@@ -298,7 +300,7 @@
           </div>
         </li>
 
-        <!-- Item 3 -->
+        
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
@@ -310,7 +312,7 @@
           </div>
         </li>
 
-        <!-- Item 4 -->
+        
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
@@ -323,7 +325,7 @@
         </li>
 
 
-        <!-- Item 5 -->
+        
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
@@ -335,7 +337,7 @@
           </div>
         </li>
 
-        <!-- Item 2 -->
+        
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
@@ -351,7 +353,7 @@
 
       </ul>
     </div>
-  </section>
+  </section> -->
   <!-- <section class="w3l-about4">
     <div class="contact1-bg py-5">
       <div class="container py-lg-3">

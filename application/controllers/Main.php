@@ -10,6 +10,7 @@ class Main extends CI_Controller {
         $title='Revo Tech';
         $this->load->view('header',array('title'=>$title));
         $this->load->view('index');
+        $this->load->view('footer');
     }
     public function about()
 	{
@@ -20,7 +21,7 @@ class Main extends CI_Controller {
     }
     public function contact()
 	{
-        $title='Contact Revo';
+        $title='تواصل معنا';
         $this->load->view('header',array('title'=>$title));
         $this->load->view('contact');
         $this->load->view('footer');

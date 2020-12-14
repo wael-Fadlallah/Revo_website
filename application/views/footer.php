@@ -98,7 +98,7 @@
         </footer>
 
         <!-- move top -->
-        <button onclick="topFunction()" id="movetop" title="Go to top">
+        <button onclick="topFunction()" id="movetop" title="الي الاعلي">
           &#10548;
         </button>
         <script>
