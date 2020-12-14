@@ -9558,7 +9558,7 @@ a.text-dark:hover, a.text-dark:focus {
 :root {
   --primary-color: #ac0606;
   --secondary-color: #ac0606;
-  --text-color: #ac0606;
+  --text-color: #000000;
   --title-color: #0F0F1A;
   --white-color: #ffffff;
   --light-bg-color: #fafafa;
@@ -9734,7 +9734,7 @@ h4.sub-title {
   vertical-align: middle; }
 
 .w3l-bootstrap-header nav.navbar {
-  border-bottom: 1px solid #eee; }
+  border-bottom: 1px solid #ddd; }
 
 .w3l-bootstrap-header a.navbar-brand {
   color: var(--title-color);

@@ -50,7 +50,7 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="row">
+                  <div class="row text-center text-md-right">
                     <div class="col-md-4 footer-list-28 mt-5">
                       <h6 class="footer-title-28">الصفحات</h6>
                       <ul>
@@ -88,13 +88,16 @@
             </div>
 
 
-            <!-- <div class="midd-footer-28 align-center py-lg-4 py-3 mt-5">
+            <div class="midd-footer-28 align-center py-lg-4 py-3 mt-5">
               <div class="container">
-                <p class="copy-footer-28 text-center"> &copy; 2020 Market. All Rights Reserved. Design by <a
-                    href="https://w3layouts.com/">W3Layouts</a></p>
+                <p class="copy-footer-28 text-center"> 
+                  جميع الحقوق محفوظة الى 
+                  &copy; 2020 
+                  <a href="#">Revo tech</a>
+                </p>
               </div>
             </div>
-          </div> -->
+          </div>
         </footer>
 
         <!-- move top -->

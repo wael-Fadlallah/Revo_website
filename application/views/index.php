@@ -90,13 +90,13 @@
        <div class="row">
          <div class="col-md-6 features15-col-text">
            <div class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+             <div class="col-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
                  <h4>تطبيقات الهواتف الذكية</h4>
                  <p>تطبيقات سهلة, بسيطة و متميزة. تعمل بسلاسة علي كل الاجهزة والاصدارات.</p>
                </div>
              </div>
-             <div class="col-sm-3">
+             <div class="col-3">
                <div class="features15-info">
                  <span class="fa fa-android" aria-hidden="true"></span>
                </div>
@@ -105,13 +105,13 @@
          </div>
          <div class="col-md-6 features15-col-text">
            <div class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+             <div class="col-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
                  <h4>تسويق</h4>
                  <p>دراسة السوق و فهم سلوك العملاء, نضع خطط التسويق المناسبة لاعمالكم من حيث الحجم و الطبيعة.</p>
                </div>
              </div>
-             <div class="col-sm-3">
+             <div class="col-3">
                <div class="features15-info">
                  <span class="fa fa-usd" aria-hidden="true"></span>
                </div>
@@ -120,13 +120,13 @@
          </div>
          <div class="col-md-6 features15-col-text">
            <div class="d-flex flex-wrap feature-unit align-items-center ">
-               <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+               <div class="col-9 mt-sm-0 mt-4 text-right">
                  <div class="features15-para">
                    <h4>انشاء المواقع</h4>
                    <p> مواقع عصرية تعكس طبيعة عملك و تلبي كل احتياجات عملائك.</p>
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-3">
                   <div class="features15-info">
                     <span class="fa fa-laptop" aria-hidden="true"></span>
                   </div>
@@ -135,13 +135,13 @@
          </div>
          <div class="col-md-6 features15-col-text">
            <div class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+             <div class="col-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
                  <h4>تحسين و صيانة</h4>
                  <p>مراجعة, اعادة هيكلة و تعديل اعمالك البرمجية واعادتها للحياة.</p>
                </div>
              </div>
-             <div class="col-sm-3">
+             <div class="col-3">
                <div class="features15-info">
                  <span class="fa fa-wrench" aria-hidden="true"></span>
                </div>
@@ -150,13 +150,13 @@
          </div>
          <div class="col-md-6 features15-col-text">
            <div class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+             <div class="col-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
                  <h4>تصميم المواقع</h4>
                  <p>تصاميم احترافية و جزابة . تفي المتطلبات العصرية و تراعي كل مقاسات شاشات العرض .</p>
                </div>
              </div>
-             <div class="col-sm-3">
+             <div class="col-3">
                <div class="features15-info">
                  <span class="fa fa-paint-brush" aria-hidden="true"></span>
                </div>
@@ -165,13 +165,13 @@
          </div>
          <div class="col-md-6 features15-col-text">
            <div class="d-flex flex-wrap feature-unit align-items-center">
-             <div class="col-sm-9 mt-sm-0 mt-4 text-right">
+             <div class="col-9 mt-sm-0 mt-4 text-right">
                <div class="features15-para">
                  <h4>حلول ادارية</h4>
                  <p>الاعطال لا تصيب الاجهزة و البرامج فقط, قد تكون الاخطاء ادارية, نقدم لك الحل الاداري الامثل و نبني اعمال راشدة اداريا </p>
                </div>
              </div>
-             <div class="col-sm-3">
+             <div class="col-3">
                <div class="features15-info">
                  <span class="fa fa-line-chart" aria-hidden="true"></span>
                </div>
@@ -271,15 +271,15 @@
         <h3 class="head">عملاء نعتز بهم </h3>
       </div>
       <div class="row col-md-10 justify-content-between grid-part text-center mx-auto">
-          <div class="parts-w3ls col-sm-2 col-6 mt-5">
+          <div class="parts-w3ls col-sm-2 col-12 mt-5">
             <!-- <span class="fa fa-cc-visa"></span> -->
             <img class="client_img" src="<?php echo base_url();?>assets/images/adela.png">
           </div>
-          <div class="parts-w3ls col-sm-2 col-6 mt-5">
+          <div class="parts-w3ls col-sm-2 col-12 mt-5">
             <!-- <span class="fa fa-cc-visa"></span> -->
             <img class="client_img" src="<?php echo base_url();?>assets/images/wdheban.jpg" style="width:170px">
           </div>
-          <div class="parts-w3ls col-sm-2 col-6 mt-5">
+          <div class="parts-w3ls col-sm-2 col-12 mt-5">
             <!-- <span class="fa fa-cc-visa"></span> -->
             <img class="client_img" src="<?php echo base_url();?>assets/images/abuela.jpg">
           </div>
@@ -311,7 +311,7 @@
 <section class="w3l-index-block10">
   <div class="new-block top-bottom">
     <div class="container">
-      <div class="middle-section">
+      <div class="middle-section text-center">
         <!-- <h5>Tagline</h5> -->
         <div class="section-width">
           <h2>ريفوليوشن تكنولوجي</h2>

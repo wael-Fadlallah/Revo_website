@@ -7,3 +7,19 @@ h1, h2, h3, h4, h5, h6,p,li,label,span,a,table,td{
 .revo_color{
     color: #ac0606;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .w3l-index-block4 .feature-unit {
+        box-shadow: var(--card-hover-box-shadow);
+        transition: 0.3s ease-in;
+    }
+    .w3l-bootstrap-header a.navbar-brand {
+        margin-right: 0.5rem;
+    }
+    .w3l-index-block3 .cwp17-text h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+  }
